@@ -25,6 +25,6 @@ on:
 
 jobs:
   verify-keycloak-init:
-    uses: mosip/kattu/.github/workflows/verify-keycloak-init.yml@master
+    uses: bn46org/kattu/.github/workflows/verify-keycloak-init.yml@master
     with: 
       kc_values_file_path: deploy/keycloak/keycloak-init-values.yaml
